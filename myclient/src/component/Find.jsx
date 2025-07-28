@@ -11,7 +11,7 @@ function Find(){
         //e.preventDefault();
         try
         {
-const response = await axios.get (`http://localhost:3001/api/employees/${id}`);
+const response = await axios.get (`https://ruchi-employee-management.onrender.com/api/employees/${id}`);
 
 setEmployee(response.data)
         }
