@@ -9,7 +9,7 @@ export function FindAll() {
     async function findAllHandler(e){
         e.preventDefault();
     try{
-        const response = await axios.get('http://localhost:3001/api/employees');
+        const response = await axios.get('https://ruchi-employee-management.onrender.com/api/employees');
         //alert(JSON.stringify(response.data,null,2));
         setEmployees(response.data);
 
