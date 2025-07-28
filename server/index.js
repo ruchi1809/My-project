@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors=require('cors');
-
+const port= 'https://ruchi-employee-management1.onrender.com';
 const app = express();
 
 
@@ -131,9 +131,6 @@ app.put('/api/employees/:id',async(req,res)=>{
         res.status(500).json({message:error.message});
     }
 });
-app.listen(3001,() => {console.log("server is running");
-    console.log("server is running on http://localhost:3001");
-//app.listen(3001,() => {
-//console.log("server is running on http://localhost:3001");
+app.listen({post},() => {console.log("server is running");
 });
 
