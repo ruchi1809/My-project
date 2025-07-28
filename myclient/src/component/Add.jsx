@@ -12,7 +12,7 @@ import axios from 'axios';
     async function show(e){
         e.preventDefault(); 
        try{
-        const response = await axios.post('http://localhost:3001/api/employees',{empNo , empName , empSal});
+        const response = await axios.post('https://ruchi-employee-management.onrender.com/api/employees',{empNo , empName , empSal});
         //alert(JSON.stringify(response.data,null,2));
         alert(response.data.message);
 
