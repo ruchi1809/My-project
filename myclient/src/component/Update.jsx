@@ -14,7 +14,7 @@ function Update(){
         e.preventDefault();
         try
         {
-const response = await axios.put(`http://localhost:3001/api/employees/${id}`, {empNo,empName,empSal });
+const response = await axios.put(`https://ruchi-employee-management.onrender.com/api/employees/${id}`, {empNo,empName,empSal });
             alert('Data Updated');
         }
         catch(err)
