@@ -1,0 +1,44 @@
+body{
+    background:linear-gradient(135deg,pink 20%,rgb(0,221,255)95%);
+}
+.container-update input[type="text"]{
+    background-color:white;
+    color:black;
+    border:none;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin: 5px auto;
+    text-align: center;
+
+}
+.container-update{
+    max-width:500px;
+    margin:20px auto;
+    padding:20px;
+    border:3px solid white;
+    border-radius: 8px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+.container-update button:hover{
+    background-color: pink;
+}
+ .container-update h1{
+    color:#333;
+    text-align:center;
+    width:30%;
+ }
+
+ .container-update hr{
+    border:none;
+    border-top:1px solid black;
+    margin:20px 0;
+ }
+ .container-update h2{
+    text-align:center;
+
+ }

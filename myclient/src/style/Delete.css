@@ -1,0 +1,62 @@
+.container-delete {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto; /* Center the container */
+  text-align: center;
+  height: 250px;
+  border:3px solid white;
+
+}
+
+.container-delete h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.container-delete hr {
+  border: none;
+  border-top: 3px solid white;
+  margin-bottom: 20px;
+}
+
+.container-delete form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-delete input[type="text"] {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: calc(100% - 30px); /* Account for padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styling for the button */
+.container-delete button[type="submit"] {
+    background-color: blue; /* Red color for delete action */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.container-delete button[type="submit"]:hover {
+    background-color: #c82333; 
+}
+@media (max-width: 600px) {
+    .container-delete {
+        width: 95%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+}
+body{
+     background:linear-gradient(135deg,pink 20%,rgb(0,221,255)95%);
+}

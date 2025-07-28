@@ -1,0 +1,70 @@
+.find-container{
+    max-width:400px;
+    margin:20px auto;
+    padding:25px;
+    border:3px solid white;
+    border-radius: 8px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    margin: 5px auto;
+    height: 400px;
+
+}
+input[type="text"]{
+    width:calc(100%-22px);
+    padding:10px 15px;
+    margin-bottom:15px;
+    border-radius:4px;
+    font-size:16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: calc(100% - 30px); /* Account for padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+input[type="text"]:focus{
+    border-color:#007bff;
+    outline:none;
+}
+button{
+    background-color:#007bff;
+    color:white;
+    padding:10px 20px;
+    border-radius:4px;
+    cursor:pointer;
+    font-size:16px;
+    transition:background-color 0.3s ease;
+    align-items:center;
+}
+button:hover{
+    background-color:#0056b3;
+}
+.employee-details h4{
+    color:pink;
+    margin-bottom:10px;
+}
+.employee-details p strong{
+    margin-bottom:5px;
+    color:pink;
+}
+h3{
+    width:50%;
+    text-align:center;
+    padding-left:90px;
+    font-size:20px;
+
+    align-items:center;
+}
+h4{
+    text-align: center;
+    font-size:25px;
+
+}
+body{
+    background-color: #82b4e9;
+}
+hr{
+    border: none;
+  border-top: 3px solid white;
+  margin-bottom: 20px;
+}
